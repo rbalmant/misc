@@ -15,7 +15,7 @@
 #define PORT 30000
 #define BACKLOG 128
 #define MAXEVENT 10
-#define TIMEOUT 100 * 60 * 5 // 5 minutes
+#define TIMEOUT 1000 * 60 * 5 // 5 minutes
 
 int main(int argc, char* argv[])
 {
